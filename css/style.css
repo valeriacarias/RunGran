@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;700;800;900&display=swap');
+
+:root{
+	--color-subtitulos-general: #888585;
+	--color-titulos: #3c3838;
+	--color-numeros: #e6e8eb;
+	--fondo-azul: #19adf4;
+	--fondo-gris: #f3f3f3;
+	--fondo-footer: #383737;
+	--color-footer: #fff;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: var(--color-subtitulos-general);
+}
+
+#navbar {
+	color: var(--fondo-footer); 
+}
+
+#hero{
+	background-image: url("../img/header_bg.jpg");
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 100px 0;
+	background-color: var(--fondo-footer); 
+}
+
+#welcome, 
+#coaches,
+#how-was,
+#gallery{
+	padding: 80px 0;
+}
+
+#coaches, #gallery{
+	background-color: var(--fondo-gris);
+} 
+
+#coaches{
+	text-align: center;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+}
+
+
+h1{
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-family: 'Oswald', sans-serif;
+}
+
+h2{
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-family: 'Oswald', sans-serif;
+	color: var(--color-titulos);
+	text-align: center;
+}
+
+h3{
+	font-size: 10px;
+	text-transform: uppercase;
+	font-weight: 200;
+	color: var(--color-subtitulos-general);
+	text-align: center;
+}
+
+h4{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-family: 'Oswald', sans-serif;
+	color: var(--color-titulos);
+	padding: 5px;
+}
+
+#welcome h5{
+	font-family: 'Oswald', sans-serif;
+	color: var(--fondo-gris);
+	font-size: 50px;
+	text-align: left;
+}
+.btn-azul{
+	background-color: var(--fondo-azul);
+	color: #FFFFFF;
+	padding: 15px 5px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+
+
